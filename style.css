@@ -1,0 +1,453 @@
+body {
+  margin: 0;
+  font: 400 18px/28px, Inter, sans-serif;
+  color: #19191c;
+  background-color: #efeff2;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  padding: 36px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__block {
+  display: flex;
+  gap: 68px;
+}
+.header-navigation {
+  margin: 0;
+  padding: 11px 0;
+}
+.nav__list {
+  display: flex;
+  gap: 48px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.button-block {
+  display: flex;
+  gap: 48px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+  font-family: Inter;
+}
+.logo {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  gap: 14px;
+  color: #19191c;
+  align-items: center;
+}
+.header-link {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  color: #19191c;
+}
+.header-button {
+  padding: 12px 37px;
+  background-color: #19191c;
+  color: #efeff2;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+}
+.footer-logo {
+  color: #fbfbfc;
+  font-size: 18px;
+  line-height: 22px;
+  gap: 12px;
+  margin: 0 0 43px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  background-color: #19191c;
+  padding: 59px 0 62px;
+}
+.sitemap__block {
+  display: flex;
+  gap: 200px;
+}
+.link-block-wrap {
+  display: flex;
+  gap: 146px;
+  margin: 0 0 90px;
+}
+.contact-link {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fbfbfc;
+  font-weight: 600;
+  display: block;
+}
+.contact-link:nth-child(2) {
+  margin: 0 0 28px;
+}
+.sitemap__heading {
+  color: #fbfbfc;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 18px;
+  padding: 0;
+  margin: 0 0 28px;
+}
+.sitemap {
+  padding: 9px 0 0;
+}
+.sitemap__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sitemap__link {
+  color: #efeff2;
+  display: block;
+  line-height: 28px;
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+.lang {
+  line-height: 22px;
+  margin: 0 0 18px;
+}
+.copyright-wrap {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+.copyright {
+  color: #6d6d77;
+  font-family: Inter;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.offer__subtitle {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  border-bottom: 4px #504dee solid;
+  display: inline-block;
+  padding: 0 0 4px 0;
+  margin: 0 0 32px 0;
+}
+.offer {
+  padding: 167px 0 0;
+  background: url(./assets/business-finance-employment-female-successful-entrepreneurs-concept-confident-smiling-asian-businesswoman-office-worker-white-suit-glasses-using-laptop-help-clients\ 1.png)
+    100% 100% no-repeat;
+}
+.offer__text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 0;
+  margin: 0 0 4px;
+}
+.offer__heading {
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  margin: 0 0 46px;
+  padding: 0;
+}
+.offer__content {
+  margin: 0;
+  max-width: 648px;
+  letter-spacing: 0em;
+  margin: 0 0 50px;
+}
+.offer__button {
+  background: #504dee;
+  color: #fbfbfc;
+  padding: 16px 37px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  border: none;
+  margin: 0 0 110px;
+}
+.offer__sale {
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  margin: 0 0 8px;
+  padding: 0;
+}
+.offer__time {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  margin: 0 0 195px;
+  padding: 0;
+}
+.offer__container {
+  display: flex;
+}
+.offer__info {
+  max-width: 648px;
+  background: url(./assets/gradient_1.png) 100% 100% no-repeat;
+}
+.offer__list {
+  list-style-type: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+}
+.offer_list_item {
+  border: 2px solid #19191c;
+  padding: 16px 36px;
+  position: absolute;
+}
+.offer__invision {
+  top: 45px;
+  right: -755px;
+}
+.offer__photopie {
+  top: 20px;
+  right: -530px;
+}
+
+.offer__miro {
+  top: 53px;
+  right: -266px;
+}
+
+.offer__photoshop {
+  top: 235px;
+  right: -287px;
+}
+
+.offer__figma {
+  top: 373px;
+  right: -77px;
+}
+
+.offer__illustrator {
+  top: 550px;
+  right: -145px;
+}
+.prof__dsgn-heading {
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 25px;
+  padding: 0;
+}
+.prof__dsgn {
+  background-color: #fbfbfc;
+  padding: 170px 0 0;
+}
+.prof__dsgn-desc {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  max-width: 588px;
+}
+.prof__dsgn-info {
+  display: flex;
+  gap: 140px;
+  margin: 0 0 168px;
+}
+.prof__dsgn-counter-number {
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.prof__dsgn-counters {
+  display: flex;
+  gap: 103px;
+}
+.prof__dsgn-counter-desc {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 35px;
+  padding: 0;
+}
+.prof__dsgn-counter-text {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.prof__dsgn-cards {
+  display: flex;
+  gap: 20px;
+}
+.prof__dsgn-card-item {
+  padding: 68px 48px;
+  max-width: 467px;
+}
+.prof__dsgn-card-heading {
+  margin: 0 0 12px;
+  padding: 0 0 25px;
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-bottom: 4px solid #19191c;
+}
+.prof__dsgn-card-desc {
+  margin: 0;
+  padding: 0;
+  max-width: 368px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.green {
+  background-color: #deefe4;
+}
+.yellow {
+  background-color: #f3f3d7;
+}
+.pink {
+  background-color: #efdeee;
+}
+.prices {
+  background-color: #fbfbfc;
+  padding: 172px 0 168px;
+}
+.prices__heading {
+  margin: 0 0 100px;
+  padding: 0 0 0;
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.prices__cards {
+  display: flex;
+  gap: 20px;
+}
+.prices__card-item {
+  max-width: 467px;
+  height: 732px;
+  padding: 48px 59px 51px 68px;
+}
+.prices__card-heading {
+  margin: 0 0 47px 0;
+  padding: 0 0 0 0;
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.prices__card-list {
+  list-style-type: square;
+  margin: 0 0 164px;
+  padding: 0 0 20px;
+}
+.prices__card-list-item {
+  margin: 0 0 20px;
+  padding: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.prices__card-price {
+  color: #6d6d77;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.blue {
+  background-color: #504dee;
+  color: #fbfbfc;
+}
+.blue-price {
+  color: #efeff2;
+}
+.prices__card-title {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.prices__card-btn {
+  background-color: #19191c;
+  color: #fbfbfc;
+  padding: 16px 36px;
+  border: none;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) and (orientation: portrait) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
